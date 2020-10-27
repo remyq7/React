@@ -23,7 +23,12 @@ function App() {
 
       <br />
       <Forecast />
-      <h5>Open-source code by Vera Malanyaon</h5>
+      <h5>
+        <a href="https://github.com/remyq7/React" alt="GitHUb page">
+          Open-source code by{" "}
+        </a>
+        Vera Malanyaon
+      </h5>
     </div>
   );
 }
