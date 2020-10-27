@@ -10,54 +10,29 @@ body {
 h1 {
   font-family: "Dancing Script";
   text-align: center;
-  margin-top: 10px;
-}
-
-.city-all {
-  display: inline;
-  text-align: center;
-  margin: 5px;
-}
-.main-submit {
-  display: inline;
-  position: relative;
-}
-
-#city {
-  background: #f785a3;
   color: #fff;
-  font-size: 75px;
-  padding: 2px;
+  margin-top: 10px;
+  background: #f56a8e;
+}
+h2 {
+  text-align: center;
+  color: #2276b7;
 }
 
-.alert-primary {
-  text-align: left;
-  margin: 0 50px;
+.icon {
+  display: block;
+  margin: 0 auto;
+  max-width: 60px;
 }
 
-.card {
+.Temperature {
   text-align: center;
   color: #1e79cb;
   margin: 10px auto;
   text-decoration: none;
 }
-.card .active {
-  color: #1e79cb;
-  cursor: default;
-}
-.card .active:hover {
-  text-decoration: none;
-}
 
-.weather-details {
-  list-style: none;
-  text-align: center;
-  color: #1e79cb;
-  padding: 0;
-  margin: 0 auto;
-}
-
-#forecast {
+.Forecast {
   list-style: none;
   color: #124069;
   padding: 0;
@@ -68,6 +43,6 @@ h1 {
 
 h5 {
   text-align: right;
-  margin: 50px;
+  margin: 20px;
   color: #662436;
 }
