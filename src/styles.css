@@ -4,7 +4,7 @@
 }
 body {
   background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
-  background-size: 900%;
+  background-size: 200%;
 }
 
 h1 {
@@ -13,6 +13,9 @@ h1 {
   color: #fff;
   margin-top: 10px;
   background: #f56a8e;
+}
+.card {
+  margin: 20px 120px;
 }
 h2 {
   text-align: center;
