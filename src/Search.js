@@ -4,7 +4,7 @@ export default function Search() {
   return (
     <div className="Search">
       <form className="Search">
-        <input type="search" />
+        <input type="Search" />
         <div className="button">
           <input type="submit" value="Search" />
         </div>
