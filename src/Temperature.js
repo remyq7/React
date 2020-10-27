@@ -6,7 +6,17 @@ import Description from "./Description.js";
 export default function Temperature(props) {
   return (
     <div className="Temperature">
-      <h2> {props.value}°C | °F</h2>
+      <h2>
+        {" "}
+        {props.value}
+        <a href="#" className="celsius">
+          °C{" "}
+        </a>
+        |{" "}
+        <a href="#" className="fahrenheit">
+          °F
+        </a>
+      </h2>
       <Description value={props.description} />
       <Humidity value={props.humidity} />
       <Wind value={props.wind} />
