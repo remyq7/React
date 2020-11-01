@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Temperature from "./Temperature.js";
 import Forecast from "./Forecast.js";
 import Search from "./Search.js";
+import City from "./City.js";
 import "./styles.css";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       </div>
 
       <br />
+
       <Forecast />
       <h5>
         <a href="https://github.com/remyq7/React" alt="GitHUb page">
