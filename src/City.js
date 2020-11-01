@@ -1,4 +1,5 @@
 import React from "react";
+import Temperature from "./Temperature.js";
 
 export default function City(props) {
   return (

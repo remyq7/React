@@ -2,8 +2,10 @@ import React from "react";
 import Humidity from "./Humidity.js";
 import Wind from "./Wind.js";
 import Description from "./Description.js";
+import City from "./City.js";
 
 export default function Temperature(props) {
+  let fahrenheitTemperature = (props.temperature * 9) / 5 + 32;
   return (
     <div className="Temperature">
       <h2>
