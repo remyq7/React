@@ -21,9 +21,7 @@ function App() {
 
         <Temperature value={19} />
       </div>
-
       <br />
-
       <Forecast />
       <h5>
         <a href="https://github.com/remyq7/React" alt="GitHUb page">
