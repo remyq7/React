@@ -1,18 +1,24 @@
-import React from "react";
-import "./styles.css";
+import React, { useState } from "react";
 export default function Search() {
+  let [city, setCity] = useState(" ");
+  let [result, setResult] = useState(" ");
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    setResult(`It is 19°C ${city}`);
+  }
+  function newCity(event) {
+    setCity(event.target.value);
+  }
   return (
     <div className="Search">
-      <form className="Search">
-        <input type="Search" placeholder="Type city here" />
+      <form onSubmit={handleSubmit}>
+        <input type="Search" placeholder="Type city here" onChange={newCity} />
         <div className="button">
-          <input
-            type="submit"
-            value="Search"
-            className="btn btn-primary w-10"
-          />
+          <input type="submit" value="Search" />
         </div>
       </form>
+      <p>{result}</p>
     </div>
   );
 }

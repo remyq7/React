@@ -5,7 +5,7 @@ import Description from "./Description.js";
 import City from "./City.js";
 
 export default function Temperature(props) {
-  let fahrenheitTemperature = (props.value * 9) / 5 + 32;
+  let fahrenheitTemperature = Math.round((props.value * 9) / 5 + 32);
   return (
     <div className="Temperature">
       <h2>
